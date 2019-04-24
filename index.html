@@ -232,7 +232,7 @@
                    var interval = setInterval(function(){
                       var response = document.getElementById('response').innerHTML;
                       if(response != '<i>thinking</i>'){
-                        var responseDiv = '<div class="msg_container base_receive"><div class="col-md-2 col-xs-2 avatar"><img src="images/cinepax.png" class="img-responsive"></div><div class="col-md-10 col-xs-10"><div class="messages msg_receive"><p>'+response+'</p></div><p style="font-size: x-small; margin: 3px 11px -15px;">'+getCurrentTime()+'</p></div>';
+                        var responseDiv = '<div class="msg_container base_receive"><div class="col-md-2 col-xs-2 avatar"><img src="/cinepax.png" class="img-responsive"></div><div class="col-md-10 col-xs-10"><div class="messages msg_receive"><p>'+response+'</p></div><p style="font-size: x-small; margin: 3px 11px -15px;">'+getCurrentTime()+'</p></div>';
                           $('#scroller-wrap').append(responseDiv);
                           //Scroll to bottom of div element
                           var scrollerWrap = document.getElementById("scroller-wrap");
