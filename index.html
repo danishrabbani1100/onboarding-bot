@@ -220,12 +220,12 @@
 					var time = "" + h + ":" + min + ":" + sec;
 					return time;
 				}
-                  SDK.applicationId = "5315413724499106639";
+                  SDK.applicationId = "7482551546953823501";
                   var sdk = new SDKConnection();
                   var web = new WebChatbotListener();
                   web.connection = sdk;
                   web.instance = '614304';
-                  web.instanceName = 'Cineplex Bot Web';
+                  web.instanceName = 'VC Dial chatbot';
                   $(document).ready(function () {
                   		$('#chat').val('get greetings');
                   		web.sendMessage();
@@ -769,7 +769,7 @@
                   }
                   
                   function MaximizeChatWindow(){
-                    window.open("https://bots.mercurialminds.com/chat?&id=614304&embedded=true&showLink=false&application=5315413724499106639&background=%23fff&prompt=You+say&send=Send", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=0,left=500,width=800,height=800");
+                    window.open("https://bots.mercurialminds.com/chat?&id=614304&embedded=true&showLink=false&application=7482551546953823501&background=%23fff&prompt=You+say&send=Send", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=0,left=500,width=800,height=800");
                   }
                   $(document).on('click', '.msg_receive button', function(){
 				  if($(this).text() == 'Book Seats'){
