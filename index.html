@@ -194,7 +194,7 @@
                            <li><a onclick="MaximizeChatWindow();" href="#"><img src="images/icon_maximize.png" style="width: 15px; height: 15px; margin-bottom: 3px"></a></li>
                            <li><a href="#"><span id="minim_chat_window" class="glyphicon glyphicon-minus icon_minim"></span></a></li>
                         </ul>
-                        <!-- <a href="https://bot.mercurialminds.com/chat?disconnect&proxy=1423247687153735773"><img class="toolbar" src="https://bot.mercurialminds.com/images/logout.png" title="Exit chat"></a> -->
+                        <!-- <a href="https://bots.mercurialminds.com/chat?disconnect&proxy=1423247687153735773"><img class="toolbar" src="https://bots.mercurialminds.com/images/logout.png" title="Exit chat"></a> -->
                      </div>
                   </div>
                   <div id="scroller" class="panel-body msg_container_base">
@@ -224,7 +224,7 @@
                   var sdk = new SDKConnection();
                   var web = new WebChatbotListener();
                   web.connection = sdk;
-                  web.instance = '1112';
+                  web.instance = '614304';
                   web.instanceName = 'Cineplex Bot Web';
                   $(document).ready(function () {
                   		$('#chat').val('get greetings');
@@ -769,7 +769,7 @@
                   }
                   
                   function MaximizeChatWindow(){
-                    window.open("https://bot.mercurialminds.com/chat?&id=1112&embedded=true&showLink=false&application=5315413724499106639&background=%23fff&prompt=You+say&send=Send", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=0,left=500,width=800,height=800");
+                    window.open("https://bots.mercurialminds.com/chat?&id=614304&embedded=true&showLink=false&application=5315413724499106639&background=%23fff&prompt=You+say&send=Send", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=0,left=500,width=800,height=800");
                   }
                   $(document).on('click', '.msg_receive button', function(){
 				  if($(this).text() == 'Book Seats'){
