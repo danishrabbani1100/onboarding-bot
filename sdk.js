@@ -43,7 +43,7 @@
  */
 var SDK = {};
 
-SDK.DOMAIN = "bots.mercurialminds.com";
+SDK.DOMAIN = "bot.mercurialminds.com";
 SDK.NAME = "mercurialminds";
 SDK.APP = "";
 
